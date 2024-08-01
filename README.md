@@ -1,6 +1,8 @@
 # pitbit.ai_assignment
 Here’s a simple Python script that can take a resume (as plain text input) and convert it into a structured JSON format. This is an example, and you may need to customize it further based on the specific structure of resumes you're working with.
+# Prompt:
 
+"Please take the content of the resume provided and convert it into a structured JSON format. The JSON should include the following fields: Name, Contact Information, Education, Skills, Work Experience, Projects, Certifications, Leadership, and Involvement. Each field should include relevant sub-fields where applicable, such as Degree, Institution, Year, etc. Ensure that the data is well-organized and accurately represents the resume's content."
 ### Script: `resume_parser.py`
 
 ```python
